@@ -1,0 +1,293 @@
+/*--------------------------------------------------------- XXL DEVICE ---------------------------------------------------------*/
+@media (min-width:1400px){
+
+}
+/*--------------------------------------------------------- XL DEVICE ---------------------------------------------------------*/
+@media (min-width:1200px) and (max-width:1399.98px){
+    /*==================== Seller Product Section ==================== */
+    #seller_product .seller_product .product_card{
+      margin: 0 12px 24px;
+      width: 23%;
+  }
+
+/* #seller_product .seller_product .product_card .product_card_thumb img{
+   width: 100%;
+} */
+}
+#seller_product .seller_product .product_card{
+   width:45%;
+   margin-bottom:40px ;
+}
+
+
+
+
+/*--------------------------------------------------------- LG DEVICE ---------------------------------------------------------*/
+@media (min-width:992px) and (max-width:1199.98px){
+      /*------------ Footer start ------------*/
+      #footer .footer_lower .footer_info:nth-child(5),
+      #footer .footer_lower .footer_info:nth-child(4){
+        padding-top:20px;
+      }
+      /*------------ Footer end ------------*/
+}
+/*==================== Seller Product Section ==================== */
+#seller_product .seller_product .product_card{
+   margin: 0 12px 24px;
+   width: 23%;
+}
+
+/*------------------------------------------------------------ MD DEVICE ------------------------------------------------------------*/
+@media (min-width:768px) and (max-width:991.98px){
+   #top-bar{
+      display: none;
+   }
+
+   .hero_slider{
+      padding: 10px;
+   }
+   #hero .hero_slider{
+      height: 500px;
+   }
+}
+/*==================== Seller Product Section ==================== */
+
+
+/* =======================promotion card =======================*/
+#promotion{
+   transform:translatey(30%);
+}
+
+/*====================== Feature card ======================*/
+#feature .feature_card{
+   margin-bottom: 20px;
+}
+#feature .feature_card{
+   width:100%;
+   background-color: red;
+}
+#feature .feature_card img{
+  background-color: red;
+  width: 100%;
+}
+
+
+/*==================== Seller Product Section ==================== */
+/* #seller_product .seller_product .product_card{
+   width:45%;
+}
+
+#seller_product .seller_product .product_card .product_card_thumb img{
+   width: 100%;
+} */
+
+
+/*================== Footer Section================== */
+.footer_info:nth-child(3),
+.footer_info:nth-child(4){
+   padding-top: 20px;
+}
+/*======================== SHOP PAGE 2 START======================== */
+ /*------------- Shop Product List Section Star -------------*/
+ #product_card .product_card_box .product_img img {
+   /* width:100%; */
+   display: flex;
+   height:100%;
+   align-items: center;
+ }
+ /*------------- Shop Product List Section End -------------*/
+/*======================== SHOP PAGE 2 END ========================*/
+
+
+
+/*------------------------------------------------------- SM DEVICE -------------------------------------------------------*/
+@media (min-width:576px) and (max-width:767.98px){
+
+   #top-bar{
+      display: none;
+   }
+
+/*=============== HERO AREA SECTION START ===============*/
+#hero{
+   width: 100%;
+}
+#hero .hero_slider{
+   background-position: center;
+   background-size: cover;
+   height: 400px;
+   background-repeat: no-repeat;
+   position: relative;
+   color: var(--light-color);
+   z-index: 1;
+}
+#hero .hero_slider h1{
+   font-size: 25px;
+    line-height: 60px;
+    color: var(--light-color);
+    font-weight: 700;
+    padding: 1px 0;
+}
+#hero .hero_slider p{
+ display: none;
+}
+/*=============== HERO AREA SECTION END ===============*/
+
+/*=============== Feature Section Start ===============*/
+#feature .feature_card.card_one{
+   margin-bottom: 20px;
+   width: auto;
+}
+#feature .feature_card.card_one:nth-child(2){
+   margin-right: -30px;
+}
+#feature .feature_card{
+   width:95%;
+}
+/*=============== Feature Section End =================*/
+
+
+
+/*=============== Discount Banner Start ===============*/
+#discount_banner .banner_info{
+   text-align: center;
+}
+#discount_banner .banner_info h1 {
+   padding:50px 20px 20px 20px;
+ }
+ #discount_banner .banner_info p {
+   /* padding:0 20px 20px 20px; */
+   padding: 0 30px 20px 30px;
+ }
+ #discount_banner {
+   height: 380px;
+   margin: 50px 0;
+ }
+/*=============== Discount Banner End =================*/
+
+/*==================== Seller Product Section ==================== */
+#seller_product .seller_product .product_card{
+   width:90%;
+   margin: 0 40px;
+}
+
+/*========== Special Offer Video Section start ==========*/
+
+/*========== Special Offer Video Section end ============*/
+
+
+
+
+
+/*================ promotion card start================ */
+#promotion{
+   transform:translatey(20%);
+}
+/*================ promotion card end================== */
+/*===================================== footer start =====================================*/
+ /*--------------- footer Upper section start ---------------*/
+#footer .footer_uppper .social_icon{
+   padding-left:150px;
+   padding-top: 30px;
+}
+#footer .footer_uppper .logo{
+   padding-top: 30px;
+}
+#footer .footer_uppper .payment{
+   padding-left:160px;
+   padding-top: 30px;
+}
+#footer .social_icon ul{
+   gap:20px;
+}
+ /*-------------- Footer lower section End ----------------*/
+
+/*===================================== footer end ======================*/
+
+
+/*======================== SHOP PAGE 2 START======================== */
+ /*------------- Shop Product List Section Star -------------*/
+ #product_card .product_card_box .product_img img{
+   margin: auto;
+   width: 100%;
+ }
+ /*------------- Shop Product List Section End -------------*/
+/*======================== SHOP PAGE 2 END ========================*/
+}
+
+
+/*-================================================== XS DEVICE -==================================================*/
+@media (max-width:575.98px){
+
+/*==================== Seller Product Section ==================== */
+#seller_product .seller_product .product_card{
+   width: 100%;
+   margin-bottom:40px ;
+}
+
+#seller_product .seller_product .product_card .product_card_thumb img{
+   width: 100%;
+}
+
+    #check_form_login .login_tittle i{
+        padding: 0 10px 0 10px;
+    }
+    #check_form_login .login_form form input{
+        width: 100%;
+    }
+    #check_form_login .login_form{
+        box-shadow: var(--box-shadow-22);
+        margin-top: 15px;
+        padding-left:10px;
+     }
+     #check_form_login .login_form form .form_checkbox input{
+        width: 10%;
+        margin: 0 -5px 0 -10px;
+     }
+     #check_form_login .login_form form button{
+        padding:11px 35px;
+        margin:10px auto;
+        width: 30%;
+     }
+     #check_form_login .login_form form h5 a {
+
+        margin: 10px 100px;
+      }
+
+
+      /*======================== SHOP PAGE 2 START======================== */
+ /*------------- Shop Product List Section Star -------------*/
+ #product_card .product_card_box .product_img img{
+   margin: auto;
+   width: 100%;
+ }
+ /*------------- Shop Product List Section End -------------*/
+/*======================== SHOP PAGE 2 END ========================*/
+}
+
+/*===================================== footer start =====================================*/
+ /*--------------- footer Upper section start ---------------*/
+ #footer {
+   padding-top:70px;
+ }
+ #footer .footer_uppper .social_icon{
+   padding-left:150px;
+   padding-top: 30px;
+}
+#footer .footer_uppper .logo{
+   padding-top: 30px;
+   padding-left:31px;
+}
+#footer .footer_uppper .payment{
+   padding-left:35px;
+   padding-top: 30px;
+}
+#footer .footer_uppper .payment img{
+   width: 55%;
+}
+#footer .social_icon ul{
+   gap:20px;
+}
+ /*-------------- Footer lower section End ----------------*/
+
+/*===================================== footer end ======================*/
+
